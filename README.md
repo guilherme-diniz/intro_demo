@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Considerations
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. The main route is /intros
+2. Filters except ```user_id``` aren't applied to perfect and good matches
+3. The results from API that are perfect or good matches are 
+   labeled with ```from_api``` and ```perfect_match``` or ```good_match```
